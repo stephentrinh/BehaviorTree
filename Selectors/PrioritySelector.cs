@@ -9,7 +9,7 @@
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     /// <summary>
     /// Goes through its list of actions to find an action it can perform on each update.

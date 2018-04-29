@@ -11,7 +11,7 @@ using System.Linq;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     /// <summary>
     /// Code taken and revised from Unity's Tree View Examples: https://docs.unity3d.com/Manual/TreeViewAPI.html

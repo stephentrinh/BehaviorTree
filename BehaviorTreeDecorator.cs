@@ -11,7 +11,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public abstract class BehaviorTreeDecorator : BehaviorTreeNode
     {

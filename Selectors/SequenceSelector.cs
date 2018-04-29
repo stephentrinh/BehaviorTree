@@ -12,7 +12,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     /// <summary>
     /// Selects its nodes in sequence. If a node fails, the selector resets.

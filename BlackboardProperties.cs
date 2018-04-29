@@ -12,14 +12,10 @@ using UnityEngine.AI;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public class BlackboardProperties
     {
-        public static BlackboardProperty<Transform> AITransform = new BlackboardProperty<Transform>("AITransform");
-        public static BlackboardProperty<NavMeshAgent> Agent = new BlackboardProperty<NavMeshAgent>("Agent");
-        public static BlackboardProperty<Transform> Destination = new BlackboardProperty<Transform>("Destination");
-        public static BlackboardProperty<Waypoint> CurrentWaypoint = new BlackboardProperty<Waypoint>("CurrentWaypoint");
-        public static BlackboardProperty<WaypointList> Waypoints = new BlackboardProperty<WaypointList>("Waypoints");
+        public static BlackboardProperty<BlackboardString> Message = new BlackboardProperty<BlackboardString>("Message");
     }
 }

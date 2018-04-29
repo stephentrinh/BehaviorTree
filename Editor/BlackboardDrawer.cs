@@ -15,14 +15,14 @@ using UnityEngine.AI;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [CustomPropertyDrawer(typeof(Blackboard))]
     public class BlackboardDrawer : PropertyDrawer
     {
-        const string SERIALIZED_BLACKBOARD_LIST_NAME = "SerializedPropertyList";
-        const string SERIALIZED_BLACKBOARD_PROPERTY_NAME = "Name";
-        const string SERIALIZED_BLACKBOARD_PROPERTY_DATA = "Data";
+        const string SERIALIZED_BLACKBOARD_LIST_NAME = "SerializedPropertyList";    // Var name found at Blackboard.cs : Line 94
+        const string SERIALIZED_BLACKBOARD_PROPERTY_NAME = "Name";                  // Var name found at Blackboard.cs : Line 90
+        const string SERIALIZED_BLACKBOARD_PROPERTY_DATA = "Data";                  // Var name found at Blackboard.cs : Line 91
 
         const float DROPDOWN_BUTTON_HEIGHT = 20f;
 
@@ -63,11 +63,6 @@ namespace BehaviorTree
 
             propertyNameList.Next(true);    // Advance to first array index
 
-            if (arrayLength == 0)
-            {
-                EditorGUI.LabelField(position, label);
-            }
-            else
             {
                 Rect rect = new Rect(position.x, position.y, position.width, 20f);
                 property.isExpanded = EditorGUI.Foldout(rect, property.isExpanded, label, true);

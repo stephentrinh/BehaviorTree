@@ -12,7 +12,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [BehaviorTreeNode("Actions/HelloWorld")]
     public class HelloWorld : BehaviorTreeAction

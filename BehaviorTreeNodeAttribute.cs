@@ -13,7 +13,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public struct AttributeTypePair
     {
@@ -34,7 +34,7 @@ namespace BehaviorTree
 
     public class BehaviorTreeNodeAttributeHandler
     {
-        const string BEHAVIOR_TREE_NODE_ASSEMBLY_NAME = "BehaviorTree-ASM";
+        const string BEHAVIOR_TREE_NODE_ASSEMBLY_NAME = "Assembly-CSharp";
 
         public static void LoadAttributes(ref List<AttributeTypePair> names)
         {

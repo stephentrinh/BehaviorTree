@@ -12,7 +12,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [CreateAssetMenu(fileName = "BehaviorTreeAsset", menuName = "AI/Behavior Tree", order =0)]
     public class BehaviorTree : ScriptableObject, ISerializationCallbackReceiver

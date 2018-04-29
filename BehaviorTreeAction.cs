@@ -11,7 +11,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [System.Serializable]
     public abstract class BehaviorTreeAction : BehaviorTreeNode

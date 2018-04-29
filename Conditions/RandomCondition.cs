@@ -12,20 +12,22 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [BehaviorTreeNode("Conditions/Random")]
-    public class SuccessCondition : BehaviorTreeCondition
+    public class RandomCondition : BehaviorTreeCondition
     {
-        public SuccessCondition(string name, int depth, int id)
+        public RandomCondition(string name, int depth, int id)
             : base(name, depth, id)
         { }
 
         public override BehaviorState NodeUpdate(Blackboard blackboard)
         {
+            _currentState = (BehaviorState)UnityEngine.Random.Range(-1, 3);
+
             if (DEBUG_on)
-                Debug.Log("I'm debugging.");
-            _currentState = STATE_SUCCESS;
+                Debug.Log("Randomed state: " + StateToString(_currentState));
+
             return _currentState;
         }
     }

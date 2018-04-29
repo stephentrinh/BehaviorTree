@@ -13,7 +13,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     /// <summary>
     /// Data representation for the behavior tree.

@@ -9,7 +9,7 @@
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     /// <summary>
     /// Runs all child nodes in order and stops when one fails or they all succeed.

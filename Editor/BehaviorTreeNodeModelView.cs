@@ -14,7 +14,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public class BehaviorTreeNodeItem : TreeViewItem
     {

@@ -12,7 +12,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [BehaviorTreeNode("Actions/Wait")]
     public class Wait : BehaviorTreeAction

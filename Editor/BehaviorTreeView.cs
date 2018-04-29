@@ -15,7 +15,7 @@ using UnityEngine.Assertions;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public class TreeViewItem<T> : TreeViewItem where T : BehaviorTreeNode
     {

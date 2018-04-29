@@ -11,7 +11,7 @@ using System;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public abstract class BehaviorTreeNode
     {

@@ -10,7 +10,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [System.Serializable]
     public abstract class BehaviorTreeSelector : BehaviorTreeNode

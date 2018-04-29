@@ -14,7 +14,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public class BehaviorTreeNodeWindow : EditorWindow
     {

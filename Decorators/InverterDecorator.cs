@@ -12,7 +12,7 @@ using UnityEngine;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     [BehaviorTreeNode("Decorators/Inverter")]
     public class InverterDecorator : BehaviorTreeDecorator

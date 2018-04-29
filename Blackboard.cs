@@ -15,7 +15,7 @@ using UnityEditor;
 ***************************************************************************************/
 
 // https://www.codeproject.com/Articles/451326/Type-safe-blackboard-property-bag
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     /// <summary>
     /// Strongly typed property identifier for properties on a blackboard
@@ -131,24 +131,5 @@ namespace BehaviorTree
             }
         }
         #endregion
-
-        //        #region Editor Methods
-        //#if UNITY_EDITOR
-        //        [MenuItem("GameObject/Behavior Tree/Blackboard", false, 10)]
-        //        static void CreateBlackboardGameObject(MenuCommand menuCommand)
-        //        {
-        //            GameObject go = new GameObject("Blackboard");
-        //            go.AddComponent<Blackboard>();
-        //            go.transform.position = Vector3.zero;
-        //            GameObjectUtility.SetParentAndAlign(go, (GameObject)menuCommand.context);
-        //            Undo.RegisterCreatedObjectUndo(go, "Create " + go.name);
-        //            Selection.activeObject = go;
-        //        }
-
-        //#endif
-
-        //#endregion
     }
-
-
 }

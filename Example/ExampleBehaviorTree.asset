@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50078e252fb8f4643ac1956d03553cf4, type: 3}
+  m_Name: ExampleBehaviorTree
+  m_EditorClassIdentifier: 
+  SerializedNodeList:
+  - TypeAsString: STBehaviorTree.BehaviorTreeRoot
+    Name: Root
+    ID: 0
+    Depth: -1
+    ChildCount: 2
+  - TypeAsString: STBehaviorTree.ConcurrentSelector
+    Name: Concurrent
+    ID: 7
+    Depth: 0
+    ChildCount: 2
+  - TypeAsString: STBehaviorTree.RandomCondition
+    Name: Random
+    ID: 1
+    Depth: 1
+    ChildCount: 0
+  - TypeAsString: STBehaviorTree.HelloWorld
+    Name: HelloWorld
+    ID: 2
+    Depth: 1
+    ChildCount: 0
+  - TypeAsString: STBehaviorTree.DebugLogMessage
+    Name: DebugLogMessage
+    ID: 5
+    Depth: 0
+    ChildCount: 0

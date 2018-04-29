@@ -15,7 +15,7 @@ using System.Collections.Generic;
 *
 ***************************************************************************************/
 
-namespace BehaviorTree
+namespace STBehaviorTree
 {
     public class BehaviorTreeViewWindow : EditorWindow
     {
