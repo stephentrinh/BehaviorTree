@@ -1,5 +1,5 @@
 # STBehaviorTree
-A simple behavior tree implementation with an editor made for Unity in C#. The editor stuff is pretty hacky though, so you'll have to forgive me.
+A simple behavior tree implementation with an editor made for Unity in C#. The editor stuff is pretty hacky though, so you'll have to forgive me. If there's anything you want to yell at me for, just shoot a tweet at me: twitter.com/simplekoi.
 
 ## IMPORTANT!
 Be careful when making changes to BehaviorTree.cs. When it gets compiled, it will wipe all the behavior trees clean and leave them quite bare.
