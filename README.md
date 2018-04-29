@@ -2,7 +2,7 @@
 A simple behavior tree implementation with an editor made for Unity in C#.
 
 ## FAQ
-**Where is the editor window for the behavior tree?**
+***Where is the editor window for the behavior tree?***
   
   You can find it under Window/Behavior Tree/Behavior Tree Editor.
 
